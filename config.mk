@@ -3,17 +3,10 @@ VERSION = 6.2
 
 # Customize below to fit your system
 
-XSESSIONS_PREFIX = /usr/share/xsessions/
-XSESSIONS_FILE = dwm.desktop
-
-.PHONY: install-xsessions
-install-xsessions:
-	cp -v $(XSESSIONS_FILE) $(XSESSIONS_PREFIX)
-
-
 # paths
 PREFIX = /usr/local
 MANPREFIX = ${PREFIX}/share/man
+XSESSIONSPREFIX = /usr/share/xsessions
 
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
